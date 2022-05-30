@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='assets/css/style.css' />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Controles HTML+CSS+JS para tag audio</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Controles HTML+CSS+JS para tag audio.<br> Aproveite! ;)</p>
+    <audio id='player'><!--/controls /autoplay-->
+        <source src='https://servidor30-1.brlogic.com:7518/live' type='audio/ogg'>
+        <source src='https://servidor30-1.brlogic.com:7518/live' type='audio/mpeg'>
+        Your browser does not support the audio element.
+    </audio>
+    
+    
+    <span id='msg'>Sintonizando...</span>
+    <span id='currentNumber'>50</span>
+    <span class='buttons'>
+        <button onclick='decrement()'>-</button>
+        <button id='playpause'>></button>
+        <button onclick='increment()'>+</button>
+    </span>
+
+    <script src='assets/js/js.js'></script>
+</body>
+</html>
