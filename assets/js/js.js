@@ -1,9 +1,8 @@
-let count = document.getElementById('currentNumber').textContent;
 const CURRENT_NUMBER = document.getElementById('currentNumber');
+var count = document.getElementById('currentNumber').textContent;
 var audio = document.getElementById('player');
 var playpause = document.getElementById('playpause');
 var msg = document.getElementById('msg');
-
 
 /*NENHUMA ALTERAÇÃO É NECESSÁRIA DAQUI PARA BAIXO*/
 
